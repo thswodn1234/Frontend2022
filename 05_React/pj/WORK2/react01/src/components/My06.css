@@ -1,0 +1,20 @@
+ul {
+    list-style: none;
+}
+
+.mvLiK {
+    display: inline-flex;
+    width: 100px;
+    font-weight: bold ;
+    justify-content: right;
+    padding: 5px;
+    margin: 5px;
+}
+
+.mvLiV{
+    display: inline-flex;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    border-bottom: 1px solid black;
+}

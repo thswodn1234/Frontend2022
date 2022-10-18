@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>폼연습</title>
+</head>
+
+<body>
+    <form method="post" action="a.html">
+        <div>
+
+            <label for="dtxt1">이름입력:</label>
+            <input type="text" id="dtxt1" name="txt1" placeholder="이름을 입력하세요">
+        </div>
+        <div>
+            <label for="dtxt2">e-mail:</label>
+
+            <input type="email" id="dtxt2" name="txt2" placeholder="메일주소">
+        </div>
+        <div>
+            <input type="submit" value="확인">
+            
+        </div>
+        <div>
+            <label for="dtxt3">날짜선택</label>
+            <input type="date" id="dtxt3" name="txt3" placeholder="">
+        </div>
+        <div>
+            <label for="dtxt4">숫자선택</label>
+            <input type="number" id="dtxt4" name="txt4" placeholder="">
+        </div>
+        <input type="reset" value="취소">
+        <input type="button" value="확인2">
+
+        <div>
+            성별:
+            <input type ="radio" id = "r1" name="gender" value="남">
+            <label for = "r1"> 남 </label>
+            <input type ="radio" name="gender1" value="여">
+            <label for="">여</label>
+        </div>
+    </form>
+</body>
+
+</html>

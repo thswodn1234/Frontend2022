@@ -1,0 +1,10 @@
+nav a {
+    text-decoration: none;
+    color: blue;
+   padding: 10px;
+}
+
+nav a:hover {
+    background-color: bisque ;
+    color: aliceblue;
+}

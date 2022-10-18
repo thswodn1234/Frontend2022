@@ -1,0 +1,106 @@
+/* 전체 적용 */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* 레이아웃 */
+body {
+    width: 100%;
+    height: 100%;
+}
+nav {
+    background-color: beige;
+    
+    display: flex;
+    justify-content:space-between;
+    color: black;
+    height: 40px;
+    width: 100%;
+    top : 0;
+    position: sticky;
+    
+
+}
+nav > ul {
+    display: flex;
+    list-style: none;
+}
+
+
+
+header {
+    background-color: azure;
+}
+
+header > section{
+    display: flex;
+    
+    
+}
+.header_left,.header_right{
+    margin: 20px;
+}
+.header_left{
+    display: flex;
+    text-align: center;
+    width: 30%;
+    font-size: 1.5em;
+} 
+.header_right {
+    font-size: 1em;
+    width: 70%;
+    
+}
+main {
+    display: flex;
+    flex-wrap: nowrap;
+}
+main > section{
+    width: 25%;
+    text-align: center;
+    margin: 70px;
+}
+img {
+    border-radius: 20%;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: paleturquoise;
+    bottom : 0;
+    position: sticky;
+}
+
+footer > h2 {
+    text-align: left;
+}
+
+footer > h2, footer>ul {
+    
+    list-style: none;
+    margin: 10px;
+}
+
+@media only screen and (max-width: 600px){
+    header > section {
+        flex-direction: column;
+        align-items: center;
+    }
+    .header_left,.header_right{
+        width: 70%;
+    }
+ 
+    main {
+        flex-direction: column;
+        align-items: center;
+       
+    }
+
+    main > section {
+        width: 100%;
+       
+    }
+}
+    
+
