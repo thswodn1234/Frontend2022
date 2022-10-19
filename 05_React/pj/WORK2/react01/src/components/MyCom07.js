@@ -1,7 +1,7 @@
 // 해당 컴포넌트에서만 사용하는 스타일 시트 정의
 import "./My06.css";
 
-function MyCom(probs) {
+function MyCom07(probs) {
   const myMv = { ...probs.item };
 
   // map()함수 : 배열의 항목을 가져와서 새로운 배열 생성
@@ -21,4 +21,4 @@ function MyCom(probs) {
   );
 }
 
-export default MyCom;
+export default MyCom07;

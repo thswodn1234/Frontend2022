@@ -1,14 +1,10 @@
 // import logo from './logo.svg';
-
-
-import MvInfo from "./project/MvInfo";
-
-// import MvInfo from "./project/MvInfo";
-
+import MvList from "./project/Mvlist";
+import "./components/Mvlist.css";
 function App() {
   return (
     <>
-      <MvInfo />
+      <MvList />
     </>
   );
 }

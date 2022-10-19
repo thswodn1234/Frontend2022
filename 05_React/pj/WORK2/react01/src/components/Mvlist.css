@@ -1,0 +1,55 @@
+
+ul {
+    
+    display: flex;
+    list-style: none;
+    width: 550px;
+    border: solid 1px black;
+    border-radius: 10px;
+    
+    
+}
+h1 {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    margin: 0;
+    
+  }
+
+
+.mvLi{
+    display: flex;
+    justify-content: center;
+   
+    
+}
+
+.mainDiv{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.rank{
+
+    display: inline-block;
+    border: 1px solid blue;
+    width: 30px;
+    margin: 10px;
+    text-align: center;
+    align-content: center;
+    border-radius: 8px;
+    background-color: #261f4b;
+    color: #ffffff;
+    
+}
+.movieNm {
+    margin: 10px;
+}

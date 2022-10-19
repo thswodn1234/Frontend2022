@@ -17,7 +17,24 @@ li, .li1 {
     align-items: center;
     width: 100%; 
 }
+.mvForm {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
 
+button {
+    
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    
+}
 .k,.v {
     display: inline-flex;
     padding: 5px;
@@ -25,6 +42,10 @@ li, .li1 {
     align-items: center;
     margin: 5px;
     width: 50%;
+}
+
+input[type=text]{
+    display: inline-flex;
 }
 
 .k {
@@ -36,7 +57,11 @@ li, .li1 {
 }
 
 
-
+.refLi{
+    list-style: none;
+    display: inline-flex;
+    
+}
 
 .mvList2{
     display: flex;
