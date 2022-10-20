@@ -1,0 +1,6 @@
+﻿인증키 : 86HmDc9G1Y%2FiZoJxjyRDUlPeNAZ3IPSdRifnBnxMzWPW8T2msURZBxSXzcriGwPztUwI%2BEhvWUQkwbxEZxwqZA%3D%3D
+
+요청 메시지: ﻿http://apis.data.go.kr/1360000/MidFcstInfoService/getMidLandFcst?serviceKey=인증키&numOfRows=10&pageNo=1&regId=11B00000&tmFc=201310171800
+
+
+사이트 : ﻿http://apis.data.go.kr/1360000/MidFcstInfoService/getMidLandFcst?serviceKey=86HmDc9G1Y%2FiZoJxjyRDUlPeNAZ3IPSdRifnBnxMzWPW8T2msURZBxSXzcriGwPztUwI%2BEhvWUQkwbxEZxwqZA%3D%3D&numOfRows=10&pageNo=1&regId=11B00000&tmFc=202210191800
