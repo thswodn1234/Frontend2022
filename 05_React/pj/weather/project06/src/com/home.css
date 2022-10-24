@@ -1,0 +1,29 @@
+h1 {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    margin: 0;
+    
+  }
+.contain{
+    display: flex;
+    flex-direction: column;
+}
+
+.c1{
+    display: flex;
+   
+    border: solid 1px black;
+    justify-content: center;
+}
+
+.c2{
+    display: flex;
+   
+    border: solid 1px black;
+    justify-content: center;
+}

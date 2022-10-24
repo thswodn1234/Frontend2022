@@ -12,6 +12,7 @@ function WeatherMain() {
     <>
       <h1>날씨예보</h1>
       <form>
+        <button className="myhome1">홈으로</button>
         <button
           onClick={(e) => {
             e.preventDefault();
